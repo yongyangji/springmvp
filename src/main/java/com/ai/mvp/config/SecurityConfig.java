@@ -30,6 +30,7 @@ public class SecurityConfig {
             );
 
         // 仅用于开发环境
+        
         http.csrf(csrf -> csrf.disable());
         http.headers(headers -> headers.frameOptions(frameOptions -> frameOptions.disable()));
 
