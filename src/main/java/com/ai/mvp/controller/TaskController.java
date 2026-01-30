@@ -40,12 +40,6 @@ public class TaskController {
         return taskService.createTask(task);
     }
 
-    // 登录页面
-    @GetMapping("/login")
-    public String login() {
-        return "login";
-    }
-
     // Web界面端点
     @GetMapping
     public String getAllTasks(Model model) {

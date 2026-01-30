@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl:*)",
+      "Bash(taskkill:*)",
+      "Bash(mvn spring-boot:run:*)",
+      "Bash(timeout:*)",
+      "Bash(where mvn)",
+      "Bash(cmd /c \"cd /d D:\\\\workspace\\\\project\\\\springmvp && mvnw.cmd spring-boot:run\")",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(cmd /c \"D:\\\\workspace\\\\project\\\\springmvp\\\\mvnw.cmd spring-boot:run\")",
+      "Bash(cmd:*)",
+      "Bash(java:*)",
+      "Bash(bash:*)",
+      "Bash(powershell:*)"
+    ]
+  }
+}
